@@ -3,7 +3,7 @@
 const uploadButton = document.querySelector('.button');
 const buttonText = document.querySelector('.btn-text');
 
-const newText = `<i class='bx bx-loader-circle'></i>
+const newText = `<i class='bx bx-loader-circle bx-spin'></i>
       <span class="btn-text">Uploading...</span>`;
 
 const defaultText = `<i class="bx bx-cloud-upload"></i>

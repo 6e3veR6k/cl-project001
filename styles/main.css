@@ -81,9 +81,22 @@ body {
   height: 100%;
   background-color: rgba(24, 24, 24, 0.2);
   border-radius: 6px;
-  transition: all 6s ease;
 }
 
+
+
 .button.progress::before {
-  left: 0;
+  animation: loadbar 6s ease;
+}
+
+@keyframes loadbar {
+  0% {
+    left: -100%;
+  }
+  98% {
+    left: 0%;
+  }
+  100% {
+    left: -100%;
+  }
 }
